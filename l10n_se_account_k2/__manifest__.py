@@ -37,7 +37,7 @@
     
     """,
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-industry-vrtl/l10n_se_account',
+    'website': 'https://vertel.se/apps/odoo-industry-vrtl/l10n_se_account_k2',
     'images': ['static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',

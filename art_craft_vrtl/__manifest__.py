@@ -33,7 +33,7 @@
     """,
     #'sequence': '1'
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-industry-vrtl/arts_craft_vrtl',
+    'website': 'https://vertel.se/apps/odoo-industry-vrtl/art_craft_vrtl',
     'images': ['static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',

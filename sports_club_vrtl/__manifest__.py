@@ -33,7 +33,7 @@
     """,
     #'sequence': '1'
     'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-industryvrtl/sports_club_vrtl',
+    'website': 'https://vertel.se/apps/odoo-industry-vrtl/sports_club_vrtl',
     'images': ['static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
