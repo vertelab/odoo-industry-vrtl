@@ -21,16 +21,20 @@
 
 {
     'name': 'Industry-vrtl: Lärplattform, LMS',
-    'version': '1.0',
+    'version': '18.0.1.0.0',
     # Version ledger: XX.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Den samlade installationen för att få allt att fungera',
+    'summary': "Complete installation package for a learning platform (LMS).",
     'category': 'Industries',
-    'description': """
-    Moduler i projektet för Lärplattformen LMS.
-    
+    'description': '''
+Lärplattform, LMS
+=================
+
     Vertel made a collection of Community Edition modules inspired of Odoo Industries series.
-    
-    """,
+
+    Features:
+
+        - Focused Fix: A small, targeted improvement to standard Odoo behaviour.
+    ''',
     #'sequence': '1'
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-industry-vrtl/larplattform_lms',

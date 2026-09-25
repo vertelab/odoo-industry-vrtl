@@ -21,21 +21,23 @@
 
 {
     'name': 'Industry-vrtl: l10n_se_account, Vertel',
-    'version': '1.0.0',
+    'version': '18.0.1.0.0',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'l10n_se_account, Vertel',
+    'summary': 'L10n_se_account, Vertel.',
     'category': 'Industries',
-    'description': """
-    l10n_se_account, Vertel Style
-    
-    Vertel made a collection of Community Edition modules inspired of Odoo Industries series.
-    
-    
-    odoo-l10n_se
-    git@github.com:OCA/bank-statement-import.git
+    'description': '''
+l10n_se_account, Vertel
+=======================
 
-    
-    """,
+    Vertel made a collection of Community Edition modules inspired of Odoo Industries series.
+
+    odoo-l10n_se
+        git@github.com:OCA/bank-statement-import.git
+
+    Features:
+
+        - Focused Fix: A small, targeted improvement to standard Odoo behaviour.
+    ''',
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-industry-vrtl/l10n_se_account_k2',
     'images': ['static/description/banner.png'], # 560x280 px.

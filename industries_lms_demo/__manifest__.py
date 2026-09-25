@@ -21,16 +21,21 @@
 
 {
     'name': 'Industry-vrtl-demo: LMS, Vertel',
-    'version': '1.0',
+    'version': '18.0.1.0.0',
     # Version ledger: XX.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Learning Management System, Vertel - DEMO',
+    'summary': 'Learning Management System, Vertel - DEMO.',
     'category': 'Industries',
-    'description': """
-    
+    'description': '''
+LMS, Vertel
+===========
+
     This module is depending on industries_lms
-    and adding some demo data for this parent module!
-    
-    """,
+        and adding some demo data for this parent module!
+
+    Features:
+
+        - Demo Data: Ships pre-configured demo data for the industry.
+    ''',
     #'sequence': '1'
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-industry-vrtl/industries_lms_demo',

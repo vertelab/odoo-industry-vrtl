@@ -21,16 +21,20 @@
 
 {
     'name': 'Industry-vrtl: The Arts & Craft Shop, Vertel',
-    'version': '1.0.0',
+    'version': '18.0.1.0.0',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'The Arts & Craft Shop, Vertel',
+    'summary': 'The Arts & Craft Shop, Vertel.',
     'category': 'Industries',
-    'description': """
-    The Arts & Craft Shop, Vertel Style
-    
+    'description': '''
+The Arts & Craft Shop, Vertel
+=============================
+
     Vertel made a collection of Community Edition modules inspired of Odoo Industries series.
-    
-    """,
+
+    Features:
+
+        - Focused Fix: A small, targeted improvement to standard Odoo behaviour.
+    ''',
     #'sequence': '1'
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-industry-vrtl/art_craft_vrtl',

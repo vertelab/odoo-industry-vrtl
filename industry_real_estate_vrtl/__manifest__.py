@@ -21,23 +21,26 @@
 
 {
     'name': 'Industry-vrtl: Real Estate Agency, Vertel',
-    'version': '1.0.1',
+    'version': '18.0.1.0.1',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Real Estate Agency, Vertel',
+    'summary': 'Real Estate Agency, Vertel.',
     'category': 'Industries',
-    'description': """
-    Real Estate Agency, Vertel Style
-    
+    'description': '''
+Real Estate Agency, Vertel
+==========================
+
     Vertel made a collection of Community Edition modules inspired of Odoo Industries series.
-    
-    
+
     odoo-account
-    git@github.com:OCA/account-financial-reporting.git
-    git@github.com:OCA/account-reconcile.git
-    git@github.com:OCA/bank-payment.git
-    git@github.com:OCA/reporting-engine.git
-    
-    """,
+        git@github.com:OCA/account-financial-reporting.git
+        git@github.com:OCA/account-reconcile.git
+        git@github.com:OCA/bank-payment.git
+        git@github.com:OCA/reporting-engine.git
+
+    Features:
+
+        - Focused Fix: A small, targeted improvement to standard Odoo behaviour.
+    ''',
     #'sequence': '1'
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-industry-vrtl/industry_real_estate_vrtl',

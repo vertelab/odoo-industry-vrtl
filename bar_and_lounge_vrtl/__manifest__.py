@@ -21,16 +21,20 @@
 
 {
     'name': 'Industry-vrtl: Bar & Lounge, Vertel',
-    'version': '1.0.0',
+    'version': '18.0.1.0.0',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Bar & Lounge, Vertel',
+    'summary': 'Bar & Lounge, Vertel.',
     'category': 'Industries',
-    'description': """
-    Bar & Lounge, Vertel Style
-    
+    'description': '''
+Bar & Lounge, Vertel
+====================
+
     Vertel made a collection of Community Edition modules inspired of Odoo Industries series.
-    
-    """,
+
+    Features:
+
+        - Focused Fix: A small, targeted improvement to standard Odoo behaviour.
+    ''',
     #'sequence': '1'
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-industry-vrtl/bar_and_lounge_vrtl',

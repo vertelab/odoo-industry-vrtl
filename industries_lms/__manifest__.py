@@ -21,26 +21,31 @@
 
 {
     'name': 'Industry-vrtl: LMS, Vertel',
-    'version': '1.0',
+    'version': '18.0.1.0.0',
     # Version ledger: XX.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Learning Management System, Vertel',
+    'summary': 'Learning Management System, Vertel.',
     'category': 'Industries',
-    'description': """
-    
+    'description': '''
+LMS, Vertel
+===========
+
     Dependencies origin från Vertel.
-    odoo-event
-    odoo-hr
-    odoo-website
-    https://github.com/vertelab/odoo-event
-    https://github.com/vertelab/odoo-website
-    https://github.com/vertelab/odoo-hr
-    
+        odoo-event
+        odoo-hr
+        odoo-website
+        https://github.com/vertelab/odoo-event
+        https://github.com/vertelab/odoo-website
+        https://github.com/vertelab/odoo-hr
+
     OCA
-    base_user_role
-    https://github.com/OCA/server-backend
-    https://github.com/OCA/knowledge
-    
-    """,
+        base_user_role
+        https://github.com/OCA/server-backend
+        https://github.com/OCA/knowledge
+
+    Features:
+
+        - Focused Fix: A small, targeted improvement to standard Odoo behaviour.
+    ''',
     #'sequence': '1'
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-industry-vrtl/industries_lms',

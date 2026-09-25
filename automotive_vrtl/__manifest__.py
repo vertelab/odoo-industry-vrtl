@@ -21,21 +21,24 @@
 
 {
     'name': 'Industry-vrtl: Automotive Spareparts, Vertel',
-    'version': '1.0.0',
+    'version': '18.0.1.0.0',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Automotive Spareparts, Vertel',
+    'summary': 'Automotive Spareparts, Vertel.',
     'category': 'Industries',
-    'description': """
-    Automotive Spareparts, Vertel Style
-    
+    'description': '''
+Automotive Spareparts, Vertel
+=============================
+
     Vertel made a collection of Community Edition modules inspired of Odoo Industries series.
-    
-    
+
     requirements.repo
-    git@github.com:vertelab/odoo-calendar.git /usr/share/odoo-calendar
-    git@github.com:vertelab/odoo-planning.git /usr/share/odoo-planning
-    
-    """,
+        git@github.com:vertelab/odoo-calendar.git /usr/share/odoo-calendar
+        git@github.com:vertelab/odoo-planning.git /usr/share/odoo-planning
+
+    Features:
+
+        - Focused Fix: A small, targeted improvement to standard Odoo behaviour.
+    ''',
     #'sequence': '1'
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-industry-vrtl/automotive_vrtl',

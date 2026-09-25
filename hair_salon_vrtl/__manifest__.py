@@ -21,23 +21,24 @@
 
 {
     'name': 'Industry-vrtl: Hair Salon, Vertel',
-    'version': '1.0.0',
+    'version': '18.0.1.0.0',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Hair Salon, Vertel',
+    'summary': 'Hair Salon, Vertel.',
     'category': 'Industries',
-    'description': """
-    Hair Salon, Vertel Style
-    
+    'description': '''
+Hair Salon, Vertel
+==================
+
     Vertel made a collection of Community Edition modules inspired of Odoo Industries series.
-    
-    
+
     External dependency
-    https://pypi.org/project/pandas/
-    pip install pandas
-    
-    sudo apt install python3-pandas
-    
-    """,
+        https://pypi.org/project/pandas/
+        pip install pandas
+
+    Features:
+
+        - Focused Fix: A small, targeted improvement to standard Odoo behaviour.
+    ''',
     #'sequence': '1'
     'author': 'Vertel AB',
     'website': 'https://vertel.se/apps/odoo-industry-vrtl/hair_salon_vrtl',
