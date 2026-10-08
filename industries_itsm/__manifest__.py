@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2024- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2024- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -21,38 +21,38 @@
 
 {
     'name': 'Industry-vrtl: ITSM, Vertel',
-    'version': '18.0.1.0.0',
+    'version': '1.0',
     # Version ledger: XX.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'IT System Management, Vertel.',
+    'summary': 'IT System Management, Vertel',
     'category': 'Industries',
-    'description': '''
-ITSM, Vertel
-============
+    'description': """
 
+
+
+    
     Dependencies origin från Vertel and OCA.
-        https://github.com/OCA/account-financial-tools
-        https://github.com/OCA/knowledge
-        https://github.com/OCA/helpdesk
-        https://github.com/OCA/hr
-        https://github.com/OCA/server-ux
-        https://github.com/OCA/server-backend
-        https://github.com/OCA/reporting-engine
+    https://github.com/OCA/account-financial-tools
+    https://github.com/OCA/knowledge
+    https://github.com/OCA/helpdesk
+    https://github.com/OCA/hr
+    https://github.com/OCA/server-ux
+    https://github.com/OCA/server-backend
+    https://github.com/OCA/reporting-engine
 
     https://github.com/vertelab/odoo-account/
-        https://github.com/vertelab/odoo-user-mail/
-        https://github.com/vertelab/odoo-base
+    https://github.com/vertelab/odoo-user-mail/
+    https://github.com/vertelab/odoo-base
 
-    Features:
 
-        - Focused Fix: A small, targeted improvement to standard Odoo behaviour.
-    ''',
+    
+    """,
     #'sequence': '1'
-    'author': 'Vertel AB',
+    'author': 'Vertel Sverige AB',
     'website': 'https://vertel.se/apps/odoo-industry-vrtl/industries_itsm',
     'images': ['static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-industry-vrtl',
     'depends': [
     'account',
@@ -142,3 +142,4 @@ ITSM, Vertel
     ],
     'installable': 'True',
 }
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
