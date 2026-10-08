@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Odoo SA, Open Source Management Solution, third party addon
-#    Copyright (C) 2023- Vertel AB (<https://vertel.se>).
+#    Copyright (C) 2023- Vertel Sverige AB (<https://vertel.se>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -21,27 +21,23 @@
 
 {
     'name': 'Industry-vrtl: Sports Club, Vertel',
-    'version': '18.0.1.0.0',
+    'version': '1.0.0',
     # Version ledger: 14.0 = Odoo version. 1 = Major. Non regressionable code. 2 = Minor. New features that are regressionable. 3 = Bug fixes
-    'summary': 'Sports Club, Vertel.',
+    'summary': 'Sports Club, Vertel',
     'category': 'Industries',
-    'description': '''
-Sports Club, Vertel
-===================
-
+    'description': """
+    Sports Club, Vertel Style
+    
     Vertel made a collection of Community Edition modules inspired of Odoo Industries series.
-
-    Features:
-
-        - Focused Fix: A small, targeted improvement to standard Odoo behaviour.
-    ''',
+    
+    """,
     #'sequence': '1'
-    'author': 'Vertel AB',
-    'website': 'https://vertel.se/apps/odoo-industry-vrtl/sports_club_vrtl',
+    'author': 'Vertel Sverige AB',
+    'website': 'https://vertel.se/apps/odoo-industryvrtl/sports_club_vrtl',
     'images': ['static/description/banner.png'], # 560x280 px.
     'license': 'AGPL-3',
     'contributor': '',
-    'maintainer': 'Vertel AB',
+    'maintainer': 'Vertel Sverige AB',
     'repository': 'https://github.com/vertelab/odoo-industry-vrtl',
     'depends': [
        #'knowledge',
