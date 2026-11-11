@@ -48,7 +48,13 @@
         'l10n_se_extended',
         'l10n_se_mis',
         'l10n_se_tax_report',
-        'account_period_vrtl',
+            # Odoo 18: account_period_vrtl ar DEPRECATED (installable: False,
+            # 2026-10-30) och ersatt av account_fiscal_year_vrtl. Det gamla
+            # beroendet blockerade hela modulen med
+            #   module account_period_vrtl: not installable, skipped
+            #   module l10n_se_account_k2: Unmet dependencies
+            # Bytt 2026-11-10 (lantteknik, Odoo 18).
+        'account_fiscal_year_vrtl',
         'account_statement_import_camt54',
         'account_reconcile_oca',
         #'account_banking_sepa_direct_debit', Waiting for 18 version
